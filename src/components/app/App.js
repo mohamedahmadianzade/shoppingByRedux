@@ -1,7 +1,7 @@
 import './App.css';
-import Navbar from './components/navbar';
+import Navbar from '../navbar';
 import React from 'react';
-import ProductList from './components/Product/productList';
+import ProductList from '../Product/productList';
 import { Outlet } from 'react-router-dom';
 
 class App extends React.Component {

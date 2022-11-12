@@ -3,7 +3,7 @@ import {
     Link,
 } from "react-router-dom";
 import ShoppingCart from "./components/shopping/shoppingCart";
-import App from "./App";
+import App from "./components/app/App";
 import ProductList from "./components/Product/productList";
 const router = createBrowserRouter([
     {
